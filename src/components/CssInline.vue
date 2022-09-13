@@ -6,6 +6,11 @@
         <p style="color: red;">
             Isso é um paragráfo
         </p>
+        <div>
+            <h3 style="background: yellow; color: blue;">
+                Eu sou o Batman;
+            </h3>
+        </div>
     </div>
 </template>
 
