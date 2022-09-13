@@ -12,8 +12,7 @@
             </h3>
             <h3 style="background: yellow; color: blue;">
                 Oi eu sou o Goku;
-            </h3>
-            
+            </h3>      
         </div>
     </div>
 </template>
