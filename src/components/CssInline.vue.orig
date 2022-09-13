@@ -7,14 +7,18 @@
             Isso é um paragráfo
         </p>
         <div>
-            <p>
-                asdsadadsa
-            </p>      <h3 style="background: yellow; color: blue;">
+<<<<<<< HEAD
+            <h3 style="background: yellow; color: blue;">
                 Eu sou o Batman;
             </h3>
             <h3 style="background: yellow; color: blue;">
                 Oi eu sou o Goku;
             </h3>      
+=======
+            <p>
+                asdsadadsa
+            </p>      
+>>>>>>> master
         </div>
     </div>
 </template>
