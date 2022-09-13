@@ -6,6 +6,9 @@
         <p style="color: red;">
             Isso é um paragráfo
         </p>
+        <div>
+            
+        </div>
     </div>
 </template>
 
