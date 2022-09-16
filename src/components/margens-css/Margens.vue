@@ -1,0 +1,130 @@
+<template>
+  <div>
+    <div>
+      <h2>CSS Margins</h2>
+      <div>This element has a margin of 70px.</div>
+    </div>
+    <div>
+      <h2>Using individual margin properties</h2>
+
+      <div>
+        This div element has a top margin of 100px, a right margin of 150px, a
+        bottom margin of 100px, and a left margin of 80px.
+      </div>
+    </div>
+    <div>
+      <h2>The margin shorthand property - 4 values</h2>
+      <div>
+        This div element has a top margin of 25px, a right margin of 50px, a
+        bottom margin of 75px, and a left margin of 100px.
+      </div>
+    </div>
+    <div>
+      <h2>The margin shorthand property - 3 values</h2>
+
+      <div>
+        This div element has a top margin of 25px, a right and left margin of
+        50px, and a bottom margin of 75px.
+      </div>
+    </div>
+    <div>
+      <h2>The margin shorthand property - 2 values</h2>
+
+      <div>
+        This div element has a top and bottom margin of 25px, and a right and
+        left margin of 50px.
+      </div>
+
+      <hr />
+    </div>
+    <div>
+      <h2>The margin shorthand property - 1 value</h2>
+
+      <div>
+        This div element has a top, bottom, left, and right margin of 25px.
+      </div>
+
+      <hr />
+    </div>
+    <div>
+      <h2>Use of margin: auto</h2>
+      <p>
+        You can set the margin property to auto to horizontally center the
+        element within its container. The element will then take up the
+        specified width, and the remaining space will be split equally between
+        the left and right margins:
+      </p>
+
+      <div>
+        This div will be horizontally centered because it has margin: auto;
+      </div>
+    </div>
+    <div>
+      <h2>Use of the inherit value</h2>
+      <p>Let the left margin be inherited from the parent element:</p>
+
+      <div>
+        <p class="ex1">
+          This paragraph has an inherited left margin (from the div element).
+        </p>
+      </div>
+    </div>
+  </div>
+</template>
+
+<script>
+export default {
+  name: "Margens",
+};
+</script>
+
+<style scoped>
+/* div {
+  margin: 70px;
+  border: 1px solid #184519;
+} */
+/* div {
+  border: 1px solid rgb(40, 38, 38);
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 80px;
+  background-color: lightblue;
+} */
+/* div {
+  border: 1px solid black;
+  margin: 25px 50px 75px 100px;
+  background-color: lightblue;
+} */
+
+/* div {
+  border: 1px solid black;
+  margin: 25px 50px 75px;
+  background-color: lightblue;
+} */
+/* div {
+    border: 1px solid black;
+    margin: 25px 50px;
+    background-color: lightblue;
+} */
+/* div {
+    border: 1px solid black;
+    margin: 25px;
+    background-color: aquamarine;
+} */
+/* div {
+    width: 300px;
+    margin: auto;
+    border: 1px solid red;
+} */
+
+div {
+    border: 1px solid red;
+    margin-left: 100px;
+}
+
+ex1 {
+    margin-left: inherit; /**herdado */
+}
+
+</style>
